@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Descuento en Marcas de vehículos</title>
+    <link rel="stylesheet" href="05-tienda-autos.css">
+    <style>
+    </style>
+</head>
+<body>
+    <main class="flexbox-margin-auto">
+        <h1 class="title">Calculadora de descuento modelos Ford</h1>
+        <section>
+            <form id="carForm">
+                <label for="carSelect">Selecciona un coche:</label>
+                <select id="carSelect">
+                    <option value="">--Selecciona--</option>
+                    <option value="fordfiesta">FORD FIESTA</option>
+                    <option value="fordfocus">FORD FOCUS</option>
+                    <option value="fordescape">FORD ESCAPE</option>
+                </select>
+                <button type="button" onclick="calculateDiscount()">Calcular Descuento</button>
+            </form>
+
+        </section>
+        <section id="result" class="result"></section>
+    </main>
+    <script src="./05-tienda-autos.js"></script>
+</body>
+</html>
